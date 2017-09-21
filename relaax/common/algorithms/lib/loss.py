@@ -4,7 +4,6 @@ import tensorflow as tf
 from relaax.common.algorithms import subgraph
 from relaax.common.algorithms.lib import graph
 from relaax.common.algorithms.lib import utils
-from relaax.algorithms.dqn.dqn_config import config as dqn_cfg
 
 
 class DA3CDiscreteLoss(subgraph.Subgraph):
